@@ -1,7 +1,7 @@
 package teammikecardtable;
 
 /**
- * Represents a playing card with rank and suite
+ * Represents a playing card with rank and suit
  * @author Luke Olney
  */
 public class Card {
@@ -11,7 +11,7 @@ public class Card {
     /**
     * Object constructor
     * @param r Rank
-    * @param s Suite
+    * @param s Suit
     */
     public Card(int r, int s){
         rank = r;
