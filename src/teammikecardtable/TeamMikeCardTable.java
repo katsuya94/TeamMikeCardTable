@@ -9,6 +9,7 @@ package teammikecardtable;
 /**
  *
  * @author katsuya94
+ * @author Luke Olney
  */
 public class TeamMikeCardTable {
 
