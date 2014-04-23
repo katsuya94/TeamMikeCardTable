@@ -49,6 +49,47 @@ public class Card {
     */
     @Override
     public String toString(){
-        return "Suit: " + suit + " Rank: " + rank;
+         String RANK = null;
+        String SUIT = null;
+        
+        switch(suit)
+        {
+            case 1: SUIT= "Hearts";
+                break;
+            
+            case 2: SUIT = "Clubs";
+                break;
+                
+            case 3: SUIT= "Diamonds";
+                break;
+            
+            case 4: SUIT = "Spades";
+                break;
+        }
+        
+        switch(rank) 
+        {
+            case 1: RANK = "Ace";
+                break;
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+            case 10:
+                RANK=Integer.toString(rank); 
+                break;
+            case 11: RANK = "Jack";
+                break;
+            case 12: RANK = "Queen";
+                break;
+            case 13: RANK = "King";
+                break;        
+        }
+         
+        return (RANK + " of " + SUIT);
     }
 }
