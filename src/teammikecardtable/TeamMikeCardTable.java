@@ -5,6 +5,7 @@ package teammikecardtable;
  * @author katsuya94
  * @author Luke Olney
  * @author Edgar Vazquez
+ * @author henrytsmith
  */
 public class TeamMikeCardTable {
 
